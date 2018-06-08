@@ -9,3 +9,12 @@ float: left;
     margin-right: auto;
  
 }
+
+.crystal{
+
+    width: 100px;
+    height: 100px;
+}
+.startGame{
+    color: green;
+}

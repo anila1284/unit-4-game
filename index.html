@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jiggle Into JavaScript</title>    
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>  
+    <div class="jumbotron">
+        <img id="logoImage" src= "assets/images/mainImage.jpg">
+        <h1 class="text-center logo">CrystalsCollector!</h1>
+        <h2 class="text-center startGame">Press any key to get started</h2>
+        <h5 class="text-center wins">Wins:</h5>
+        <h5 class="text-center losses">Loses:</h5>
+      </div>
+    
+      <div class="container">
+    
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card mb-2">
+              <h3 class="card-header">Current number</h3>
+              <div class="card-body text-center">
+                <h1 id="computer-pick"></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card mb-2">
+              <h3 class="card-header">Crystals</h3>
+              <div class="card-body text-center">
+               <img id="crystal1" class="crystal" src= "assets/images/Crystal1.jpg" value = "">
+               <img id="crystal2" class="crystal" src= "assets/images/Crystal2.jpg" value = "">
+               <img id="crystal3" class="crystal" src= "assets/images/Crystal3.jpg" value = "">
+               <img id="crystal4" class="crystal" src= "assets/images/Crystal4.jpg" value = "">
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card mb-2">
+              <h3 class="card-header">Your total score is: </h3>
+              <div class="card-body text-center">
+                <h1 id="result"></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>         
+      
+       
+</body>
+</html>
